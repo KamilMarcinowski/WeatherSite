@@ -38,13 +38,3 @@ body{
     height: 30px;
     color: white;
 }
-
-.BtnSelectCity{
-    width: 150px;
-    height: 30px;
-    border: none;
-    border-radius: 15px;
-    background-color: #0b7a96;
-    color: white;
-    cursor: pointer;
-}
