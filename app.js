@@ -9,7 +9,7 @@ window.onload = function(){
 
 function GetWeatherData()
 {
-    let location = locationSrc.innerHTML;
+    let location = "Olkusz";
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`,)
         .then(response => response.json())
