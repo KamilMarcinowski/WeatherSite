@@ -14,7 +14,6 @@ function GetWeatherData()
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`,)
         .then(response => response.json())
         .then(data => {
-            locationSrc.innerHTML = data.name;
             temperatureSrc.innerHTML = data.main.temp.toFixed("0") + "°C";
         })
         .catch(error => {
