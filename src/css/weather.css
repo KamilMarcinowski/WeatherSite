@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@800&family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+
+body{
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(#1a4f94, #0b7a96);
+}
+
+.wrapper{
+    width: 98vw;
+    height: 98vh;
+    color: white;
+}
